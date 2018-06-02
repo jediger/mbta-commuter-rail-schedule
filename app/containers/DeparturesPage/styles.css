@@ -1,0 +1,52 @@
+.departures {
+	padding: 20px;
+	font-family: 'Quicksand', sans-serif;
+}
+
+h1 {
+	margin: 0;
+	font-size: 40px;
+	font-weight: 300;
+	text-transform: uppercase;
+}
+
+.departures ul {
+	list-style: none;
+	font-size: 20px;
+	text-transform: uppercase;
+	padding: 0;
+	margin: 0;
+}
+
+.departures ul li {
+	border-bottom: 1px rgba(0, 0, 0, 0.3) dotted;
+}
+
+.departures .labels {
+	font-weight: 500;
+}
+
+.departures ul span {
+	display: inline-block;
+	width: 15%;
+	vertical-align: middle;
+}
+
+.departures ul span.time {
+	width: 20%;
+}
+
+.departures ul span.dest {
+	width: 30%;
+}
+
+.status-all-aboard,
+.status-now-boarding {
+	color: green;
+}
+
+.status-delayed,
+.status-late,
+.status-cancelled {
+	color: red;
+}
